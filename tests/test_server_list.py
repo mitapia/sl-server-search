@@ -1,6 +1,7 @@
 import unittest
 
-from server_list import ServerList
+from context import app
+from app.server_list import ServerList
 from test_sl_file import sample_server_list
 
 class TestServerList(unittest.TestCase):

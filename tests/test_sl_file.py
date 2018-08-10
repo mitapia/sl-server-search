@@ -1,6 +1,7 @@
 import unittest
 
-from sl_file import SLFile
+from context import app
+from app.sl_file import SLFile
 
 sample_server_list = [
     {'HW ID': '1',
